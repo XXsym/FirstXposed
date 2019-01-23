@@ -43,41 +43,7 @@ public class Config2 {
         }
     }
 
-    /*//保存bean
-    private static boolean save(){
-        try {
-            FileWriter fileWriter = new FileWriter(settingFile,false);
-            fileWriter.write(bean.toJson());
-            fileWriter.flush();
-            fileWriter.close();
-            return true;
-        } catch (IOException e) {
-            Log.e("Config","save:"+e.getMessage());
-            return false;
-        }
-    }*/
 
-
-    /*//总开关
-    public static boolean setB1(boolean b){
-        bean.steal = b;
-        return save();
-    }
-    //帮助收取开关
-    public static boolean setB2(boolean b){
-        bean.help = b;
-        return save();
-    }
-    //白名单开关
-    public static boolean setB3(boolean b){
-        bean.stealWhite = b;
-        return save();
-    }
-    //能量记录开关
-    public static boolean setB4(boolean b){
-        bean.recEnergy = b;
-        return save();
-    }*/
 
     public static class SetBean{
         public boolean steal = true;
